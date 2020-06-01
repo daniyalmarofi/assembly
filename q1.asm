@@ -1,4 +1,5 @@
 .ORIG x3000
+
         LD R0, X
         LD R1, Y
         ADD R2, R0, R1 ; R2=X+Y
@@ -15,12 +16,12 @@
 	    BRp ToR6 ; elif R==1: odd
 
 ToR7	LD R7, X
-	HALT
+	    HALT
 
 ToR6	LD R6, X
-	HALT
+	    HALT
 
-X    .FILL x0006
-Y    .FILL x0005
+X      .FILL x0006
+Y      .FILL x0005
 
 .END
