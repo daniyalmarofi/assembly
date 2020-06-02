@@ -12,4 +12,6 @@ Loop	ADD R5, R5, R3 ; R5=X+X
 X	   .FILL x0006
 Y	   .FILL x0005
 
+        HALT
+
 .END

@@ -6,4 +6,6 @@
 
 O	    .FILL #-48
 
+        HALT
+
 .END
