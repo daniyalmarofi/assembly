@@ -19,11 +19,11 @@ ToR2	ADD R2, R1, #0 ; save X to R2
 	    HALT
 
 MXP	    NOT R1,R1 ;
-	    ADD R1,R1,#1 ; X=-X
+	    ADD R1,R1,#1 ; X=-X (or X=|X|)
 	    BR C1
 
 MYP     NOT R2,R2 ;
-	    ADD R2,R2,#1 ; Y=-Y
+	    ADD R2,R2,#1 ; Y=-Y (or Y=|Y|)
         BR rest
 
 X      .FILL #-6
