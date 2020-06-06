@@ -1,9 +1,0 @@
-//Symbol Name		Page Address
-//----------------	------------
-//	DIV                     300C
-//	DIVL                    3010
-//	Loop                    3003
-//	arr                     3014
-//	count                   3015
-//	mcount                  3016
-//	res                     3017
