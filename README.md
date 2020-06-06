@@ -11,4 +11,4 @@ University of Tehran
 
 ## Usage
 
-Assemble codes with [LC3 Tutor](http://lc3tutor.org/) and click Run.
+Assemble codes with [LC-3 Simulator](http://wchargin.github.io/lc3web/) and click Run.
