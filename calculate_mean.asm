@@ -13,7 +13,7 @@ Loop    LDR R3, R1, #0 ; R3 is the value of arr
         JSR DIV ; calculate sum/100
         STI R5, res ; save mean to x2000
 
-        HALT
+HALT
 
 DIV     AND R5, R5, #0 ; now R2 is zero for the division
         LD R6, mcount ; R6 is -100
